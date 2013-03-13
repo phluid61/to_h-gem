@@ -1,7 +1,9 @@
 enum_to_h
 =========
 
-Defines `Enumerable#to_h`, from https://bugs.ruby-lang.org/issues/6669
+Defines `Enumerable#to_h`, from [feature #6669](https://bugs.ruby-lang.org/issues/6669)
+
+**Note:** for Ruby < 2.0, the [*to_h* gem](https://rubygems.org/gems/to_h) may be required!
 
 Converts *enum* to a Hash.
 
