@@ -18,3 +18,6 @@ Duplicate keys are overwritten in order.
 [[1,2],[1,4]].to_h  #=> {1=>4}
 ```
 
+----
+
+[![Build Status](https://travis-ci.org/phluid61/to_h-gem.png)](https://travis-ci.org/phluid61/to_h-gem)
