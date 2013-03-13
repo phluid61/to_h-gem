@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = 'Defines Enumerable#to_h  See https://bugs.ruby-lang.org/issues/7292'
   s.authors = ['Matthew Kerwin']
   s.email   = 'matthew@kerwin.net.au'
-  s.files   = ['lib/enm_to_h.rb']
+  s.files   = ['lib/enum_to_h.rb']
   s.homepage = 'http://rubygems.org/gems/enum_to_h'
   s.license = 'Simplified BSD License'
 end
