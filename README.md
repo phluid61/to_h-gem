@@ -1,5 +1,5 @@
-to_h
-====
+enum_to_h
+=========
 
 Defines `Enumerable#to_h`, from https://bugs.ruby-lang.org/issues/6669
 
