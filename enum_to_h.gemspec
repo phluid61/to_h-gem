@@ -9,5 +9,5 @@ Gem::Specification.new do |s|
   s.files   = ['lib/enum_to_h.rb']
   s.requirements = ['to_h, for Ruby <2.0']
   s.homepage = 'http://rubygems.org/gems/enum_to_h'
-  s.license = 'Simplified BSD License'
+  s.license = 'ISC License'
 end
