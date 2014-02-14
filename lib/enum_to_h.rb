@@ -1,4 +1,3 @@
-
 module Enumerable
 	#
 	# Converts +enum+ to a Hash.
@@ -15,7 +14,7 @@ module Enumerable
 	def to_h
 		hsh = {}
 		each do |k,v,*x|
-			raise ArgumentError, "invalid number of elements (#{x.length+1} for 1..2)" if x.any?
+			raise ArgumentError, "invalid number of elements (#{x.length+2} for 1..2)" if x.any?
 			hsh[k] = v
 		end
 		hsh
