@@ -22,4 +22,6 @@ Duplicate keys are overwritten in order.
 
 ----
 
-[![Build Status](https://travis-ci.org/phluid61/to_h-gem.png)](https://travis-ci.org/phluid61/to_h-gem)
+* [Contributor Code of Conduct](code_of_conduct.md)
+* [![Build Status](https://travis-ci.org/phluid61/to_h-gem.png)](https://travis-ci.org/phluid61/to_h-gem)
+
