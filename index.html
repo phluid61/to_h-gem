@@ -2,19 +2,21 @@
 layout: default
 title: "enum_to_h"
 ---
-<h1>enum_to_h</h1>
+<h1><a href="#enum_to_h" aria-hidden="true" class="anchor" id="enum_to_h"></a>enum_to_h</h1>
+<p><a href="http://badge.fury.io/rb/enum_to_h"><img src="https://badge.fury.io/rb/enum_to_h.png" alt="Gem Version" /></a>
+<a href="code_of_conduct.html"><img src="https://img.shields.io/badge/Contributor%20Covenant-v3.0%20adopted-ff69b4.svg" alt="Contributor Covenant" /></a></p>
 <p>Defines <code>Enumerable#to_h</code>, from <a href="https://bugs.ruby-lang.org/issues/6669">feature #6669</a></p>
 <p><strong>Note:</strong> as of Ruby 2.1, <code>Enumerable#to_h</code> <a href="http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-to_h">is already defined</a> in a similar but <em>not identical</em> way.  Please take care when mixing this gem with Ruby &gt;=2.1.</p>
 <p><strong>Note:</strong> for Ruby &lt; 2.0, the <a href="https://rubygems.org/gems/to_h"><em>to_h</em> gem</a> may be required!</p>
 <p>Converts <em>enum</em> to a Hash.</p>
 <p>Each element of <em>enum</em> must be a single item, or an array of two items.
 Duplicate keys are overwritten in order.</p>
-<pre><code class="language-ruby">[].to_h             #=&gt; {}
-[1,2].to_h          #=&gt; {1=&gt;nil, 2=&gt;nil}
-(1..2).to_h         #=&gt; {1=&gt;nil, 2=&gt;nil}
-[[1,2],[3,4]].to_h  #=&gt; {1=&gt;2, 3=&gt;4}
-[[1,2],[1,4]].to_h  #=&gt; {1=&gt;4}
-</code></pre>
+<pre lang="ruby" style="background-color:#2b303b;"><code><span style="color:#c0c5ce;">[].</span><span style="color:#96b5b4;">to_h             </span><span style="color:#65737e;">#=&gt; {}
+</span><span style="color:#c0c5ce;">[</span><span style="color:#d08770;">1</span><span style="color:#c0c5ce;">,</span><span style="color:#d08770;">2</span><span style="color:#c0c5ce;">].</span><span style="color:#96b5b4;">to_h          </span><span style="color:#65737e;">#=&gt; {1=&gt;nil, 2=&gt;nil}
+</span><span style="color:#c0c5ce;">(</span><span style="color:#d08770;">1</span><span style="color:#c0c5ce;">..</span><span style="color:#d08770;">2</span><span style="color:#c0c5ce;">).</span><span style="color:#96b5b4;">to_h         </span><span style="color:#65737e;">#=&gt; {1=&gt;nil, 2=&gt;nil}
+</span><span style="color:#c0c5ce;">[[</span><span style="color:#d08770;">1</span><span style="color:#c0c5ce;">,</span><span style="color:#d08770;">2</span><span style="color:#c0c5ce;">],[</span><span style="color:#d08770;">3</span><span style="color:#c0c5ce;">,</span><span style="color:#d08770;">4</span><span style="color:#c0c5ce;">]].</span><span style="color:#96b5b4;">to_h  </span><span style="color:#65737e;">#=&gt; {1=&gt;2, 3=&gt;4}
+</span><span style="color:#c0c5ce;">[[</span><span style="color:#d08770;">1</span><span style="color:#c0c5ce;">,</span><span style="color:#d08770;">2</span><span style="color:#c0c5ce;">],[</span><span style="color:#d08770;">1</span><span style="color:#c0c5ce;">,</span><span style="color:#d08770;">4</span><span style="color:#c0c5ce;">]].</span><span style="color:#96b5b4;">to_h  </span><span style="color:#65737e;">#=&gt; {1=&gt;4}
+</span></code></pre>
 <hr />
 <ul>
 <li><a href="code_of_conduct.html">Contributor Code of Conduct</a></li>
