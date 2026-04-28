@@ -23,8 +23,18 @@ Duplicate keys are overwritten in order.
 [[1,2],[1,4]].to_h  #=> {1=>4}
 ```
 
-----
+## Contributor Code of Conduct
 
-* [Contributor Code of Conduct](code_of_conduct.md)
-* [![Build Status](https://travis-ci.org/phluid61/to_h-gem.png)](https://travis-ci.org/phluid61/to_h-gem)
+This repository is subject to a [Contributor Code of Conduct](code_of_conduct.md)
+adapted from the [Contributor Covenant][cc], version 3.0, available at
+<https://www.contributor-covenant.org/version/3/0/>
+
+
+[cc]: https://www.contributor-covenant.org
+
+
+## Licence
+
+This project is licensed under the ISC licence. See [LICENSE](LICENSE)
+for details
 
